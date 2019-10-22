@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.ResponseBody
 import java.util.concurrent.ConcurrentHashMap
 
+/**
 @SpringBootApplication
 class Application {
     companion object {
@@ -41,3 +42,5 @@ class FirstController {
 fun main(args: Array<String>) {
     runApplication<Application>(*args)
 }
+
+**/
